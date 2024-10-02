@@ -79,8 +79,9 @@
     - MOVIE_ID: 电影ID，对应豆瓣的DOUBAN_ID
     - RATING: 评分
     - RATING_TIME: 评分时间
-    二、数据预处理
 
+    二、数据预处理
+    
     读取数据
     ![image1](https://github.com/evillewislin/Douban-PV/blob/master/photo/1.png)
 
@@ -113,6 +114,7 @@
     ![image10](https://github.com/evillewislin/Douban-PV/blob/master/photo/10.png)
 
     三、数据呈现
+
     展示不同类型电影的平均评分
     ![image11](https://github.com/evillewislin/Douban-PV/blob/master/photo/11.png)
     ![image12](https://github.com/evillewislin/Douban-PV/blob/master/photo/12.png)
@@ -135,7 +137,7 @@
     ![image18](https://github.com/evillewislin/Douban-PV/blob/master/photo/18.png)
     ![image19](https://github.com/evillewislin/Douban-PV/blob/master/photo/19.png)
     1970电影数量遥遥领先，总体来说呈逐年递增趋势
-    
+
     展示不同类型电影的占比
     ![image20](https://github.com/evillewislin/Douban-PV/blob/master/photo/20.png)
     ![image21](https://github.com/evillewislin/Douban-PV/blob/master/photo/21.png)
