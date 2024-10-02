@@ -82,7 +82,7 @@
     二、数据预处理
     
     读取数据
-    ![image1](https://github.com/evillewislin/Douban-PV/blob/master/photo/1.png)
+    ![image1](https://github.com/evillewislin/Douban-PV/blob/master/photo/1.png))
     查看缺失值
     ![image2](https://github.com/evillewislin/Douban-PV/blob/master/photo/2.png)
     将上映日期的缺失值用1970填充。
