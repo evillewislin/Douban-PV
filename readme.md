@@ -80,64 +80,95 @@
     - RATING: 评分
     - RATING_TIME: 评分时间
     二、数据预处理
+
     读取数据
+
     ![image1](https://github.com/evillewislin/Douban-PV/blob/master/photo/1.png)
+    
     查看缺失值
+
     ![image2](https://github.com/evillewislin/Douban-PV/blob/master/photo/2.png)
+    
     将上映日期的缺失值用1970填充。
+
     ![image3](https://github.com/evillewislin/Douban-PV/blob/master/photo/3.png)
+    
     没有重复值，无需处理
-    ![image4](https://github.com/evillewislin/Douban-PV/blob/master/photo/png)
+
+    ![image4](https://github.com/evillewislin/Douban-PV/blob/master/photo/4.png)
+    
     将上映日期统一为年份显示
-    ![image5](https://github.com/evillewislin/Douban-PV/blob/master/photo/.png)
+
+    ![image5](https://github.com/evillewislin/Douban-PV/blob/master/photo/5.png)
 
     三、数据分析
 
     给电影数据增加一列评分
+
     ![image6](https://github.com/evillewislin/Douban-PV/blob/master/photo/6.png)
 
     给电影数据添加新的一列评分人数
+
     ![image7](https://github.com/evillewislin/Douban-PV/blob/master/photo/7.png)
 
     没有用户评分的电影，评分使用均值替代。
+
     ![image8](https://github.com/evillewislin/Douban-PV/blob/master/photo/8.png)
 
     看评分低于2个标准差的电影信息和评分数据高于2个标准差的电影信息
+
     ![image9](https://github.com/evillewislin/Douban-PV/blob/master/photo/9.png)
 
     查看异常值
+
     ![image10](https://github.com/evillewislin/Douban-PV/blob/master/photo/10.png)
 
     三、数据呈现
 
     展示不同类型电影的平均评分
+
     ![image11](https://github.com/evillewislin/Douban-PV/blob/master/photo/11.png)
+
     ![image12](https://github.com/evillewislin/Douban-PV/blob/master/photo/12.png)
+
     惊悚恐怖的电影评分较低
 
     展示不同国家电影大于50部的平均评分
+    
     ![image13](https://github.com/evillewislin/Douban-PV/blob/master/photo/13.png)
 
 
     展示不同年份的电影的平均评分
+
     ![image14](https://github.com/evillewislin/Douban-PV/blob/master/photo/14.png)
+
     ![image15](https://github.com/evillewislin/Douban-PV/blob/master/photo/15.png)
+
     平均评分逐年递减，1910年平均评分为5.0可能是由于数据较少导致
 
 
     展示不同国家/地区电影的数量
+
     ![image16](https://github.com/evillewislin/Douban-PV/blob/master/photo/16.png)
+
     ![image17](https://github.com/evillewislin/Douban-PV/blob/master/photo/17.png)
+
     大部分国家电影数量为1，而电影数量多的国家的经济都比较发达
     
     展示不同年份电影的数量
+
     ![image18](https://github.com/evillewislin/Douban-PV/blob/master/photo/18.png)
+
     ![image19](https://github.com/evillewislin/Douban-PV/blob/master/photo/19.png)
+
     1970电影数量遥遥领先，总体来说呈逐年递增趋势
 
     展示不同类型电影的占比
+
     ![image20](https://github.com/evillewislin/Douban-PV/blob/master/photo/20.png)
+
     ![image21](https://github.com/evillewislin/Douban-PV/blob/master/photo/21.png)
+
     电影多数为剧情、喜剧，说明观众多数喜爱这些类型的电影
 
 6.学习体会
