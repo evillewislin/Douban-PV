@@ -102,20 +102,20 @@
         惊悚恐怖的电影评分较低<br>
         展示不同国家电影大于50部的平均评分<br>
         ![image13](https://s2.loli.net/2024/10/03/RWVXB8sefb2km73.png)<br>
-        展示不同年份的电影的平均评分<br>
         ![image14](https://s2.loli.net/2024/10/03/H6dUYTlXPbCwGR8.png)<br>
+        展示不同年份的电影的平均评分<br>
         ![image15](https://s2.loli.net/2024/10/03/NAWX8mDnFVcbOjY.png)<br>
-        平均评分逐年递减，1910年平均评分为5.0可能是由于数据较少导致<br>
-        展示不同国家/地区电影的数量<br>
         ![image16](https://s2.loli.net/2024/10/03/hR6QYWkZ5VEp4xB.png)<br>
+        平均评分逐年递减，1910年平均评分为5.0可能是由于数据较少导致<br>
+        展示不同国家/地区电影的数量<br>     
         ![image17](https://s2.loli.net/2024/10/03/kOYxAdIZjavrLbC.png)<br>
+         ![image18](https://s2.loli.net/2024/10/03/6QvuBpSzU41FEng.png)<br>
         大部分国家电影数量为1，而电影数量多的国家的经济都比较发达<br>
         展示不同年份电影的数量<br>
-        ![image18](https://s2.loli.net/2024/10/03/6QvuBpSzU41FEng.png)<br>
         ![image19](https://s2.loli.net/2024/10/03/My1ZKGh6YkiFzlx.png)<br>
+        ![image20](https://s2.loli.net/2024/10/03/MQDl6wdAjaYp3N5.png)<br>
         1970电影数量遥遥领先，总体来说呈逐年递增趋势<br>
         展示不同类型电影的占比<br>
-        ![image20](https://s2.loli.net/2024/10/03/MQDl6wdAjaYp3N5.png)<br>
         ![image21](https://s2.loli.net/2024/10/03/eEIQSOTMhsvkH4f.png)<br>
         ![image22](https://s2.loli.net/2024/10/03/BRawm6SPYVcevEf.png)<br>
         电影多数为剧情、喜剧，说明观众多数喜爱这些类型的电影<br>
