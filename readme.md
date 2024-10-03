@@ -79,96 +79,94 @@
     - MOVIE_ID: 电影ID，对应豆瓣的DOUBAN_ID
     - RATING: 评分
     - RATING_TIME: 评分时间
-
     二、数据预处理
-    读取数据
+        读取数据
+        ![image1](https://s2.loli.net/2024/10/03/oHuMbcfKzaJhGwN.png)
     
-    ![image1](https://s2.loli.net/2024/10/03/oHuMbcfKzaJhGwN.png)
-
-    查看缺失值
+        查看缺失值
+        
+        ![image2](https://s2.loli.net/2024/10/03/l8s1TvKeBiC3o6x.png)
     
-    ![image2](https://s2.loli.net/2024/10/03/l8s1TvKeBiC3o6x.png)
-
-    将上映日期的缺失值用1970填充。
+        将上映日期的缺失值用1970填充。
+        
+        ![image3](https://s2.loli.net/2024/10/03/eOcpRn7gyPhYIGF.png)
     
-    ![image3](https://s2.loli.net/2024/10/03/eOcpRn7gyPhYIGF.png)
-
-    没有重复值，无需处理
+        没有重复值，无需处理
+        
+        ![image4](https://s2.loli.net/2024/10/03/7zJLmMOA9GHtxED.png)
     
-    ![image4](https://s2.loli.net/2024/10/03/7zJLmMOA9GHtxED.png)
-
-    将上映日期统一为年份显示
+        将上映日期统一为年份显示
+        
+        ![image5](https://s2.loli.net/2024/10/03/7zJLmMOA9GHtxED.png)
     
-    ![image5](https://s2.loli.net/2024/10/03/7zJLmMOA9GHtxED.png)
-
-    三、数据分析
-    给电影数据增加一列评分
+        三、数据分析
+        给电影数据增加一列评分
+        
+        ![image6](https://s2.loli.net/2024/10/03/zC7URSa4jlBnfOF.png)
     
-    ![image6](https://s2.loli.net/2024/10/03/zC7URSa4jlBnfOF.png)
-
-    给电影数据添加新的一列评分人数
+        给电影数据添加新的一列评分人数
+        
+        ![image7](https://sm.ms/image/DEpOLZrlCRKftjF)
     
-    ![image7](https://sm.ms/image/DEpOLZrlCRKftjF)
-
-    没有用户评分的电影，评分使用均值替代。
+        没有用户评分的电影，评分使用均值替代。
+        
+        ![image8](https://s2.loli.net/2024/10/03/l8s1TvKeBiC3o6x.png)
     
-    ![image8](https://s2.loli.net/2024/10/03/l8s1TvKeBiC3o6x.png)
-
-    看评分低于2个标准差的电影信息和评分数据高于2个标准差的电影信息
+        看评分低于2个标准差的电影信息和评分数据高于2个标准差的电影信息
+        
+        ![image9](https://sm.ms/image/eEIQSOTMhsvkH4f)
     
-    ![image9](https://sm.ms/image/eEIQSOTMhsvkH4f)
-
-    查看异常值
-    
-    ![image10](https://s2.loli.net/2024/10/03/9O2rVGKgctYqmxQ.png)
+        查看异常值
+        
+        ![image10](https://s2.loli.net/2024/10/03/9O2rVGKgctYqmxQ.png)
 
     三、数据呈现
 
-    展示不同类型电影的平均评分
+        展示不同类型电影的平均评分
+        
+        ![image11](https://sm.ms/image/My1ZKGh6YkiFzlx)
+        
+        ![image12](https://sm.ms/image/NAWX8mDnFVcbOjY)
+        
+        惊悚恐怖的电影评分较低
     
-    ![image11](https://sm.ms/image/My1ZKGh6YkiFzlx)
+        展示不同国家电影大于50部的平均评分
+        
+        ![image13](https://sm.ms/image/hR6QYWkZ5VEp4xB)
     
-    ![image12](https://sm.ms/image/NAWX8mDnFVcbOjY)
+        展示不同年份的电影的平均评分
+        
+        ![image14](https://sm.ms/image/6QvuBpSzU41FEng)
+        
+        ![image15](https://sm.ms/image/oXMD4bW12CpyKFV)
+        
+        平均评分逐年递减，1910年平均评分为5.0可能是由于数据较少导致
     
-    惊悚恐怖的电影评分较低
-
-    展示不同国家电影大于50部的平均评分
+        展示不同国家/地区电影的数量
+        
+        ![image16](https://sm.ms/image/MQDl6wdAjaYp3N5)
+        
+        ![image17](https://sm.ms/image/kOYxAdIZjavrLbC)
+        
+        大部分国家电影数量为1，而电影数量多的国家的经济都比较发达
     
-    ![image13](https://sm.ms/image/hR6QYWkZ5VEp4xB)
-
-    展示不同年份的电影的平均评分
+        展示不同年份电影的数量
+        
+        ![image18](https://sm.ms/image/RWVXB8sefb2km73)
+        
+        ![image19](https://sm.ms/image/GK82oMSVF1Cd5Oq)
+        
+        1970电影数量遥遥领先，总体来说呈逐年递增趋势
     
-    ![image14](https://sm.ms/image/6QvuBpSzU41FEng)
+        展示不同类型电影的占比
+        
+        ![image20](https://sm.ms/image/H6dUYTlXPbCwGR8)
+        
+        ![image21](https://sm.ms/image/hD1cbNSsmEJqTFr)
     
-    ![image15](https://sm.ms/image/oXMD4bW12CpyKFV)
-    
-    平均评分逐年递减，1910年平均评分为5.0可能是由于数据较少导致
-
-    展示不同国家/地区电影的数量
-    
-    ![image16](https://sm.ms/image/MQDl6wdAjaYp3N5)
-    
-    ![image17](https://sm.ms/image/kOYxAdIZjavrLbC)
-    
-    大部分国家电影数量为1，而电影数量多的国家的经济都比较发达
-
-    展示不同年份电影的数量
-    
-    ![image18](https://sm.ms/image/RWVXB8sefb2km73)
-    
-    ![image19](https://sm.ms/image/GK82oMSVF1Cd5Oq)
-    
-    1970电影数量遥遥领先，总体来说呈逐年递增趋势
-
-    展示不同类型电影的占比
-    
-    ![image20](https://sm.ms/image/H6dUYTlXPbCwGR8)
-    
-    ![image21](https://sm.ms/image/hD1cbNSsmEJqTFr)
-
-    ![image22](https://s2.loli.net/2024/10/03/BRawm6SPYVcevEf.png)
-    
-    电影多数为剧情、喜剧，说明观众多数喜爱这些类型的电影
+        ![image22](https://s2.loli.net/2024/10/03/BRawm6SPYVcevEf.png)
+        
+        电影多数为剧情、喜剧，说明观众多数喜爱这些类型的电影
 
 6.学习体会
 在这个项目中，我通过数据分析和可视化手段，深入探索了豆瓣电影数据的一些有趣现象，通过使用 Python 中的 Pandas 库和 Matplotlib 库，我完成了一次从原始数据到洞察输出的全过程实践。
