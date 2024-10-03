@@ -98,31 +98,31 @@
         没有用户评分的电影，评分使用均值替代。
         ![image8](https://s2.loli.net/2024/10/03/l8s1TvKeBiC3o6x.png)
         看评分低于2个标准差的电影信息和评分数据高于2个标准差的电影信息
-        ![image9](https://sm.ms/image/eEIQSOTMhsvkH4f)
+        ![image9](https://sm.ms/image/eEIQSOTMhsvkH4f.png)
         查看异常值
         ![image10](https://s2.loli.net/2024/10/03/9O2rVGKgctYqmxQ.png)
     三、数据呈现
         展示不同类型电影的平均评分
-        ![image11](https://sm.ms/image/My1ZKGh6YkiFzlx)
-        ![image12](https://sm.ms/image/NAWX8mDnFVcbOjY)
+        ![image11](https://sm.ms/image/My1ZKGh6YkiFzlx.png)
+        ![image12](https://sm.ms/image/NAWX8mDnFVcbOjY.png)
         惊悚恐怖的电影评分较低
         展示不同国家电影大于50部的平均评分
-        ![image13](https://sm.ms/image/hR6QYWkZ5VEp4xB)
+        ![image13](https://sm.ms/image/hR6QYWkZ5VEp4xB.png)
         展示不同年份的电影的平均评分
-        ![image14](https://sm.ms/image/6QvuBpSzU41FEng)
-        ![image15](https://sm.ms/image/oXMD4bW12CpyKFV)
+        ![image14](https://sm.ms/image/6QvuBpSzU41FEng.png)
+        ![image15](https://sm.ms/image/oXMD4bW12CpyKFV.png)
         平均评分逐年递减，1910年平均评分为5.0可能是由于数据较少导致
         展示不同国家/地区电影的数量
-        ![image16](https://sm.ms/image/MQDl6wdAjaYp3N5)
-        ![image17](https://sm.ms/image/kOYxAdIZjavrLbC)
+        ![image16](https://sm.ms/image/MQDl6wdAjaYp3N5.png)
+        ![image17](https://sm.ms/image/kOYxAdIZjavrLbC.png)
         大部分国家电影数量为1，而电影数量多的国家的经济都比较发达
         展示不同年份电影的数量
-        ![image18](https://sm.ms/image/RWVXB8sefb2km73)
-        ![image19](https://sm.ms/image/GK82oMSVF1Cd5Oq)
+        ![image18](https://sm.ms/image/RWVXB8sefb2km73.png)
+        ![image19](https://sm.ms/image/GK82oMSVF1Cd5Oq.png)
         1970电影数量遥遥领先，总体来说呈逐年递增趋势
         展示不同类型电影的占比
-        ![image20](https://sm.ms/image/H6dUYTlXPbCwGR8)
-        ![image21](https://sm.ms/image/hD1cbNSsmEJqTFr)
+        ![image20](https://sm.ms/image/H6dUYTlXPbCwGR8.png)
+        ![image21](https://sm.ms/image/hD1cbNSsmEJqTFr.png)
         ![image22](https://s2.loli.net/2024/10/03/BRawm6SPYVcevEf.png)
         电影多数为剧情、喜剧，说明观众多数喜爱这些类型的电影
 
